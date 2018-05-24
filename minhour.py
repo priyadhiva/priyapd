@@ -1,4 +1,4 @@
-m=int(input("enter the mins:"))
-h=int((m/60))
-min=int((h*60))
-print("time in hours:",h,"and","time in mins:",min)
+min=int(input("enter the minutes"))
+hour=min/60
+rem=min-(hour*60)
+print (hour,rem)
