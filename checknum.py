@@ -1,6 +1,6 @@
-n=10
+N=10
 x=int(input("enter the number"))
-if x<=n:
+if x<=N:
     print ("yes")
 else:
     print ("no")
