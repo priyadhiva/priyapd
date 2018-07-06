@@ -1,4 +1,4 @@
 a=int(input("enter a number"))
-for i in range(1,6):
-  b=n*i
+for i in range(1,a+1):
+  b=a*i
   print(b)
